@@ -3,15 +3,18 @@
 	<title>Twisted Chat Demo | Chat Room</title>
 </head>
 <body>
-	<h1>Twisted Chat Demo | Chat Room</h1>
+	<h1>Chat Room</h1>
 	<br />
     <br />
-    <p>This is chat room.</p>
     <div t:render="content"/>
 
 <!-- 
     <div t:render="header"/>
     <div t:render="footer"/>
  -->
+ 
+    <br />
+    <hr />
+
 </body>
 </html>

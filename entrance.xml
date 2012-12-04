@@ -18,6 +18,8 @@
     </form>
     <br />
     <hr />
+	<br />
+	Room List --> <a href="RoomList/">view</a>
 
     <div t:render="content"/>
 
