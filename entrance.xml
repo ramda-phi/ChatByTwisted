@@ -1,0 +1,29 @@
+<html xmlns:t="http://twistedmatrix.com/ns/twisted.web.template/0.1">
+<head>
+	<title>Twisted Chat Demo</title>
+</head>
+<body>
+	<h1>Twisted Chat Demo</h1>
+	<br />
+	<p>Hello, this is Chat Demo by Twisted.
+	<br />
+	( <a href="http://twistedmatrix.com/trac/" target="_blank">http://twistedmatrix.com/trac/</a> )
+	</p>
+	<br />	
+
+	<form method="POST" action="">
+		<div>Plz Enter your Name: <input type="text" name="name" /></div>
+		<div>And Room Name: <input type="text" name="room" /></div>
+    	<input type="submit" value="Enter" />
+    </form>
+    <br />
+    <hr />
+
+    <div t:render="content"/>
+
+<!-- 
+    <div t:render="header"/>
+    <div t:render="footer"/>
+ -->
+</body>
+</html>
